@@ -1,0 +1,30 @@
+.groups { margin-top: 24px; }
+
+.group-help { background: url("../img/question-round.svg") no-repeat; width: 22px; height: 26px; display: inline-block; margin-left: 6px; position: relative; top: 5px; cursor: pointer; }
+
+#pen { margin-top: 150px; display: block; width: 100%; height: 400px; background: url("../img/pen.svg") no-repeat; }
+
+.gender-icon, .female, .male { background-repeat: no-repeat; background-position: center center; border-radius: 11px; box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); display: inline-block; margin: 3px 2px 0; height: 22px; width: 22px; }
+.gender-icon.booking-green, .female.booking-green, .male.booking-green { background-color: #61be17; }
+.gender-icon.booking-orange, .female.booking-orange, .male.booking-orange { background-color: orange; }
+.gender-icon.booking-half-red, .female.booking-half-red, .male.booking-half-red { background: linear-gradient(to bottom, #ffa500 50%, #d6360e 50%); }
+.gender-icon.booking-red, .female.booking-red, .male.booking-red { background-color: #d6360e; }
+
+.female { background-image: url("../img/female.svg"); }
+.female.booking-half-red { background: url("../img/female.svg"), linear-gradient(to bottom, #ffa500 50%, #d6360e 50%); background-repeat: no-repeat; background-position: center center; }
+
+.male { background-image: url("../img/male.svg"); }
+.male.booking-half-red { background: url("../img/male.svg"), linear-gradient(to bottom, #ffa500 50%, #d6360e 50%); background-repeat: no-repeat; background-position: center center; }
+
+.popover { box-shadow: 0 7px 0 -1px rgba(0, 0, 0, 0.2); }
+.popover hr { margin: 4px 0; }
+.popover .popover-content { font-size: 14px; }
+
+.table-group { width: 100%; text-align: center; }
+.table-group thead th, .table-group thead tr { line-height: 24px; text-align: center; }
+.table-group thead tr:first-child th { padding-bottom: 10px; }
+.table-group .label { margin-left: 12px; position: relative; top: -2px; }
+
+.table-pricing td { padding: 4px 8px; }
+.table-pricing td:first-child { padding-left: 0; }
+.table-pricing td:last-child { font-size: 12px; }
